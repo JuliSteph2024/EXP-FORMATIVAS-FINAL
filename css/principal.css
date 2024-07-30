@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fedede;
+    font-family: 'Calibri', Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    padding: 15px 0px;
+}
+
+.nav-link {
+    color: #e3769c;
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 18px;
+    transition: border-bottom 0.2 ease;
+}
+
+.nav-link:hover {
+    color: #f1085ac4;
+}
+
+.logo-img {
+    max-width: 100%;
+    height: auto;
+    width: 110px;
+}
+
+.especial {
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.container {
+    padding: 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 15px;
+}
+
+.container p {
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.novedades {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.novedades img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(249, 108, 129, 0.72);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+}
+
+.overlay h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.overlay .btn-pink {
+    background-color: #f61d6dea;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.overlay .btn-pink:hover {
+    background-color: #ff0055;
+}
+
+.novedades:hover .overlay {
+    opacity: 1;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonial-item {
+    transition: transform 0.3s ease; 
+    border: 2px solid rgba(238, 79, 137, 0.561);
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    
+}
+
+.testimonial-item:hover {
+    transform: scale(1.05);
+}
+
+.testimonial-avatar img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.testimonial-text {
+    font-style: italic;
+    color:  rgb(79, 79, 79);
+}
+
+.testimonial-author {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #e82f63 ;
+}
+
+footer {
+    margin-top: 120px;
+    background-color: #f698ac;
+    color: #ffffff;
+    text-align: center;
+    padding: 35px 0 40px;
+    font-size: 19px;
+}
+
+.redes-sociales {
+    margin-bottom: 30px;
+    font-family: "Mitr", sans-serif;
+    font-weight: 200px;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.redes-sociales h4 {
+    font-size: 1.45rem;
+    margin-bottom: 15px;
+}
+
+.redes-sociales img {
+    width: 37px;
+    margin: 0 10px;
+    vertical-align: middle;
+}

@@ -1,0 +1,47 @@
+.pregunta {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(186, 181, 181, 0.375);
+    transition: color 0.5s ease, background-color 0.2s ease;
+    cursor: pointer;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.pregunta:hover {
+    color: rgb(249, 89, 118);
+    background-color: rgb(255, 238, 243);
+}
+
+.card-body {
+    padding: 20px 0 10px;
+}
+
+.card-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.respuesta {
+    display: none;
+}
+
+.pregunta:hover .respuesta {
+    display: block;
+    text-align:justify;
+}
+
+.respuesta p,
+.respuesta ul li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.respuesta ul {
+    padding-left: 20px;
+}

@@ -1,0 +1,31 @@
+.carousel-indicators {
+    display: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(202, 202, 202, 0.5);
+    color: #fff;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    left: 10px; 
+}
+
+.carousel-control-next {
+    right: 10px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(124, 124, 124, 0.5);
+}
+
+.carousel-inner img {
+    object-fit: cover;
+}

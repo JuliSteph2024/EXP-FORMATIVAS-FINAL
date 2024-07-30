@@ -1,0 +1,41 @@
+.contacto {
+    margin-top: 40px;
+}
+.especial {
+    margin-top: 20px;
+}
+.formulario {
+    margin-top: 30px;
+    font-size: 18px;
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+}
+label {
+    color: rgb(247, 115, 139);
+    font-weight: bold;
+}
+
+.form-control, .form-control-file {
+    border-radius: 0.25rem;
+}
+
+.center-button {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-custom {
+    background-color: #ff6d6d;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 18px;
+    padding: 8px 40px;
+}
+.btn-custom:hover {
+    background-color: #ff7e7e;
+    color: white;
+}
